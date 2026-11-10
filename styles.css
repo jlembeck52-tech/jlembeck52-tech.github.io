@@ -13,3 +13,12 @@
 .timeline-list p{font-size:15px;line-height:1.6;margin:0}
 .internship-milestone .timeline-dot{background:#a58145;box-shadow:0 0 0 2px #a58145}
 @media(max-width:900px){.goals-layout{grid-template-columns:1fr;gap:30px}.career-timeline{max-width:650px}}
+
+/* About Me photo */
+.about-page{max-width:none}
+.about-layout{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:56px;align-items:start}
+.about-copy p:first-child{margin-top:0}
+.pc-build-photo{margin:0;max-width:380px}
+.pc-build-photo img{display:block;width:100%;height:auto;border-radius:5px;border:1px solid #dce3ea}
+.pc-build-photo figcaption{font-size:14px;color:#506075;margin-top:10px}
+@media(max-width:900px){.about-layout{grid-template-columns:1fr;gap:28px}.pc-build-photo{width:100%;max-width:380px}}
